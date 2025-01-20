@@ -95,6 +95,7 @@ if (line.substr(0,3) == "cat"){
 	else {
 		fout << "\n return 0; \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n }";
 }
+    fout << "}"; // NikkyHika пофиксил один баг
     fout.close();
     return 0;
         }}}
