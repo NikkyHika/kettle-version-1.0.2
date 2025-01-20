@@ -1,0 +1,24 @@
+int num1;
+string op;
+print-"Calculator"
+print-"number 1:"
+input-int-num1; //cin >> num1;
+print-"number 2:"
+input-int-num2;
+print-"operator:"
+input-str-op; //getline(cin, op);
+if (op == "+") {    //добавь if из с++
+    print-num1+num2;
+}
+elif (op == "-") { //добавь elif из python
+    print-num1-num2;
+}
+elif (op == "/") {
+    print-num1/num2;
+}
+elif (op == "*") {
+    print-num1*num2;
+}
+else { //добавь else из с++
+    print-"ошибка";
+}
